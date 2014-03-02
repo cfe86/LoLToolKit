@@ -1,0 +1,274 @@
+loadImageError=Couldn't load an image. You may update all data using settings -> update to repair it.
+writeError=Couldn't write the file to the HDD. Maybe it is write protected?
+readError=Couldn't read the champion file. Maybe it is corrupted. An update may help.
+
+invalidPath=no valid LoL path found. Set one at Settings -> Settings
+
+done=done
+
+***********
+* JButton *
+***********
+chooseB.label=choose
+chooseB.icon=
+chooseB.shortcut=
+chooseB.actionCommand=chooseB
+chooseB.toolTip=This will override the LoL input.ini to make the made settings available ingame.
+
+saveB.label=save
+saveB.icon=
+saveB.shortcut=
+saveB.actionCommand=saveB
+saveB.toolTip=This will save the made settings but will not make them available ingame.
+
+resetB.label=reset
+resetB.icon=
+resetB.shortcut=
+resetB.actionCommand=resetB
+resetB.toolTip=This will reset the current champion to default.
+
+
+**********
+* JPanel *
+**********
+champP.label=<html><b>Champion:</b><html>
+champP.toolTip=
+
+trinketP.label=<html><b>Trinket:</b><html>
+trinketP.toolTip=
+
+spellP.label=<html><b>Spells:</b><html>
+spellP.toolTip=
+
+itemP.label=<html><b>Items:</b><html>
+itemP.toolTip=
+
+
+**************
+* ImagePanel *
+**************
+item1IP.toolTip=Item 1
+
+item2IP.toolTip=Item 2
+
+item3IP.toolTip=Item 3
+
+item4IP.toolTip=Item 4
+
+item5IP.toolTip=Item 5
+
+item6IP.toolTip=Item 6
+
+trinketIP.toolTip=Trinket
+
+
+**********
+* JLabel *
+**********
+nameJL.label=<html><font size="5">{0}</font><html>
+nameJL.icon=
+nameJL.toolTip=
+
+
+*************
+* JComboBox *
+*************
+nameCB.shortcut=
+nameCB.actionCommand=nameCB
+nameCB.toolTip=
+
+
+**************
+* JTextField *
+**************
+trinketHotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+spell1HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+spell2HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+spell3HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+spell4HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+summonerSpell1HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+summonerSpell2HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+item1HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+item2HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+item3HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+item4HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+item5HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+item6HotkeyTF.toolTip=Insert your prefered hotkey for this spell here. Only letters and space are allowed.
+
+
+*************
+* JCheckBox *
+*************
+smartcastItem1ChB.label=quick cast
+smartcastItem1ChB.icon=
+smartcastItem1ChB.shortcut=
+smartcastItem1ChB.actionCommand=smartcastItem1ChB
+smartcastItem1ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastItem1ChB.label=self cast
+selfcastItem1ChB.icon=
+selfcastItem1ChB.shortcut=
+selfcastItem1ChB.actionCommand=selfcastItem1ChB
+selfcastItem1ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastItem2ChB.label=quick cast
+smartcastItem2ChB.icon=
+smartcastItem2ChB.shortcut=
+smartcastItem2ChB.actionCommand=smartcastItem2ChB
+smartcastItem2ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastItem2ChB.label=self cast
+selfcastItem2ChB.icon=
+selfcastItem2ChB.shortcut=
+selfcastItem2ChB.actionCommand=selfcastItem2ChB
+selfcastItem2ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastItem3ChB.label=quick cast
+smartcastItem3ChB.icon=
+smartcastItem3ChB.shortcut=
+smartcastItem3ChB.actionCommand=smartcastItem3ChB
+smartcastItem3ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastItem3ChB.label=self cast
+selfcastItem3ChB.icon=
+selfcastItem3ChB.shortcut=
+selfcastItem3ChB.actionCommand=selfcastItem3ChB
+selfcastItem3ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastItem4ChB.label=quick cast
+smartcastItem4ChB.icon=
+smartcastItem4ChB.shortcut=
+smartcastItem4ChB.actionCommand=smartcastItem4ChB
+smartcastItem4ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastItem4ChB.label=self cast
+selfcastItem4ChB.icon=
+selfcastItem4ChB.shortcut=
+selfcastItem4ChB.actionCommand=selfcastItem4ChB
+autoAdselfcastItem4ChBdChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastItem5ChB.label=quick cast
+smartcastItem5ChB.icon=
+smartcastItem5ChB.shortcut=
+smartcastItem5ChB.actionCommand=smartcastItem5ChB
+smartcastItem5ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastItem5ChB.label=self cast
+selfcastItem5ChB.icon=
+selfcastItem5ChB.shortcut=
+selfcastItem5ChB.actionCommand=selfcastItem5ChB
+selfcastItem5ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastItem6ChB.label=quick cast
+smartcastItem6ChB.icon=
+smartcastItem6ChB.shortcut=
+smartcastItem6ChB.actionCommand=smartcastItem6ChB
+smartcastItem6ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastItem6ChB.label=self cast
+selfcastItem6ChB.icon=
+selfcastItem6ChB.shortcut=
+selfcastItem6ChB.actionCommand=selfcastItem6ChB
+selfcastItem6ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastSpell1ChB.label=quick cast
+smartcastSpell1ChB.icon=
+smartcastSpell1ChB.shortcut=
+smartcastSpell1ChB.actionCommand=smartcastSpell1ChB
+smartcastSpell1ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastSpell1ChB.label=self cast
+selfcastSpell1ChB.icon=
+selfcastSpell1ChB.shortcut=
+selfcastSpell1ChB.actionCommand=selfcastSpell1ChB
+selfcastSpell1ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastSpell2ChB.label=quick cast
+smartcastSpell2ChB.icon=
+smartcastSpell2ChB.shortcut=
+smartcastSpell2ChB.actionCommand=smartcastSpell2ChB
+smartcastSpell2ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastSpell2ChB.label=self cast
+selfcastSpell2ChB.icon=
+selfcastSpell2ChB.shortcut=
+selfcastSpell2ChB.actionCommand=selfcastSpell2ChB
+selfcastSpell2ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastSpell3ChB.label=quick cast
+smartcastSpell3ChB.icon=
+smartcastSpell3ChB.shortcut=
+smartcastSpell3ChB.actionCommand=smartcastSpell3ChB
+smartcastSpell3ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastSpell3ChB.label=self cast
+selfcastSpell3ChB.icon=
+selfcastSpell3ChB.shortcut=
+selfcastSpell3ChB.actionCommand=selfcastSpell3ChB
+selfcastSpell3ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastSpell4ChB.label=quick cast
+smartcastSpell4ChB.icon=
+smartcastSpell4ChB.shortcut=
+smartcastSpell4ChB.actionCommand=smartcastSpell4ChB
+smartcastSpell4ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastSpell4ChB.label=self cast
+selfcastSpell4ChB.icon=
+selfcastSpell4ChB.shortcut=
+selfcastSpell4ChB.actionCommand=selfcastSpell4ChB
+selfcastSpell4ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastSummonerSpell1ChB.label=quick cast
+smartcastSummonerSpell1ChB.icon=
+smartcastSummonerSpell1ChB.shortcut=
+smartcastSummonerSpell1ChB.actionCommand=smartcastSummonerSpell1ChB
+smartcastSummonerSpell1ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastSummonerSpell1ChB.label=self cast
+selfcastSummonerSpell1ChB.icon=
+selfcastSummonerSpell1ChB.shortcut=
+selfcastSummonerSpell1ChB.actionCommand=selfcastSummonerSpell1ChB
+selfcastSummonerSpell1ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastSummonerSpell2ChB.label=quick cast
+smartcastSummonerSpell2ChB.icon=
+smartcastSummonerSpell2ChB.shortcut=
+smartcastSummonerSpell2ChB.actionCommand=smartcastSummonerSpell2ChB
+smartcastSummonerSpell2ChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+selfcastSummonerSpell2ChB.label=self cast
+selfcastSummonerSpell2ChB.icon=
+selfcastSummonerSpell2ChB.shortcut=
+selfcastSummonerSpell2ChB.actionCommand=selfcastSummonerSpell2ChB
+selfcastSummonerSpell2ChB.toolTip=Check this to self cast the spell. For quick+self cast check both boxes.
+
+smartcastTrinketChB.label=quick cast
+smartcastTrinketChB.icon=
+smartcastTrinketChB.shortcut=
+smartcastTrinketChB.actionCommand=smartcastTrinketChB
+smartcastTrinketChB.toolTip=Check this if this spell should be insteadly casted. For quick+self cast check both boxes.
+
+rangeIndicatorChB.label=display Range Indicator when using Quick Cast
+rangeIndicatorChB.icon=
+rangeIndicatorChB.shortcut=
+rangeIndicatorChB.actionCommand=rangeIndicatorChB
+rangeIndicatorChB.toolTip=
+
+overrideItemsChB.label=override item configuration
+overrideItemsChB.icon=
+overrideItemsChB.shortcut=
+overrideItemsChB.actionCommand=overrideItemsChB
+overrideItemsChB.toolTip=If activated the item settings will be used. If deactivated the item settings will not be overriden in the input.ini which means the settings you made ingame for your items will not be changed.

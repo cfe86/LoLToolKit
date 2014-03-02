@@ -1,0 +1,49 @@
+window=Updater
+
+updateAvailable=new update available
+updateNotAvailable=no update available
+
+fastUpdateUnavailable=Problem while getting data for fast update. Due to this it is unavaiable this time.
+ErrorWhileUpdating=An Error occured. Probably a server is offline and you may try later again or try another update way.
+updateSuccessful=Update successful!
+
+***********
+* JButton *
+***********
+updateB.label=update
+updateB.icon=
+updateB.shortcut=
+updateB.actionCommand=updateB
+updateB.toolTip=
+
+
+**********
+* JPanel *
+**********
+updateP.label=<html><b>Updater:</b><html>
+updateP.toolTip=
+
+
+**********
+* JLabel *
+**********
+introJL.labelJar=languagefiles/texts/UpdateIntro.en_US
+introJL.icon=
+introJL.toolTip=
+
+
+****************
+* JRadioButton *
+****************
+fastUpdateRB.label=fast update {0}
+fastUpdateRB.icon=
+fastUpdateRB.shortcut=
+fastUpdateRB.actionCommand=fastUpdateRB
+fastUpdateRB.toolTip=
+
+
+slowUpdateRB.label=slow update
+slowUpdateRB.icon=
+slowUpdateRB.shortcut=
+slowUpdateRB.actionCommand=slowUpdateRB
+slowUpdateRB.toolTip=

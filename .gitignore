@@ -1,0 +1,16 @@
+/data
+data.zip
+settings.conf
+
+/target
+*.class
+
+# Package Files #
+*.war
+*.ear
+
+
+# Eclipse files #
+.classpath
+.project
+.settings

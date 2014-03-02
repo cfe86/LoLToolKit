@@ -1,0 +1,49 @@
+window=About
+
+
+**********
+* JLabel *
+**********
+nameJL.label=<html><span STYLE="font-family: Georgia; font-size: 45pt">LoL Tool Kit</span></html>
+nameJL.icon=
+nameJL.toolTip=
+
+versionJL.label=Version:
+versionJL.icon=
+versionJL.toolTip=
+
+versionTextJL.label={0}
+versionTextJL.icon=
+versionTextJL.toolTip=
+
+softwareUpdateJL.label=Letztes Software Update:
+softwareUpdateJL.icon=
+softwareUpdateJL.toolTip=
+
+softwareUpdateTextJL.label={0}
+softwareUpdateTextJL.icon=
+softwareUpdateTextJL.toolTip=
+
+lastFastUpdateJL.label=Letztes Daten Update:
+lastFastUpdateJL.icon=
+lastFastUpdateJL.toolTip=
+
+lastFastUpdateTextJL.label={0}
+lastFastUpdateTextJL.icon=
+lastFastUpdateTextJL.toolTip=
+
+developedJL.label=Entwickelt von:
+developedJL.icon=
+developedJL.toolTip=
+
+developedTextJL.label=Christian Feier <ChristianFeier@gmx.de>
+developedTextJL.icon=
+developedTextJL.toolTip=
+
+riotJL.label=Chamion, Fähigkeiten und Item Bilder (c) Riot Games
+riotJL.icon=
+riotJL.toolTip=
+
+copyrightJL.label=Copyright (c) 2014, Christian Feier
+copyrightJL.icon=
+copyrightJL.toolTip=

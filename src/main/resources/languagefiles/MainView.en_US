@@ -1,0 +1,222 @@
+window=LoL Tool Kit
+
+imageNotFound=Couldn't find some images. This may cause to an error.
+
+updateAvailable=A data update for champs, items etc. using fast update is available. Do you want to update?
+softwareUpdateAvaiable=A software update is available. Do you want to download it? For more information about the update, have a look at https://github.com/cf86/LoLToolKit
+softwareUpdateSuccessful=The new version is downloaded. You can replace the old file with the new file and everything should work fine. The application will end now so you can override it with the downloaded one.
+
+noInternet=Couldn't get update information. Maybe your internet isn't working?
+noUpdateMade=You canceled the update. Some information are missing to display everything correctly. To update go to Settings -> Update
+
+writeError=Error while writing settings.conf. Do you want to quit anyway?
+
+urlopenError=There was an error while opening the donation url.
+openDonationURL=This will open your default browser and redirect you to Paypal. Is that ok?
+
+noLolPath=No LoL Path found. Do you want to set the right path?
+
+exportError=An error occured during exporting. Maybe this file write protected?
+exportSuccessful=Export successful!
+importError=An error occured while reading the file. Maybe its a wrong file? If not its corrupted.
+importWriteError=An error occured while writing imported data to cache. Is the folder write protected?
+importSuccessful=Import successful!
+
+licenseError=Error while reading all licenses. The jar file seems to be corrupted.
+
+InitError=An Error occured during initialisation. The Application is corrupted. Please redownload.
+
+
+***********
+* MenuBar *
+***********
+menubar.toolTip=
+
+
+********
+* Menu *
+********
+fileM.label=File
+fileM.icon=
+fileM.shortcut=
+fileM.toolTip=
+fileM.actionCommand=fileM
+
+settingsM.label=Settings
+settingsM.icon=
+settingsM.shortcut=
+settingsM.toolTip=
+settingsM.actionCommand=settingsM
+
+languageM.label=Language
+languageM.icon=
+languageM.shortcut=
+languageM.toolTip=
+languageM.actionCommand=languageM
+
+helpM.label=Help
+helpM.icon=
+helpM.shortcut=
+helpM.toolTip=
+helpM.actionCommand=helpM
+
+skinsM.label=Skins
+skinsM.icon=
+skinsM.shortcut=
+skinsM.toolTip=
+skinsM.actionCommand=skinsM
+
+
+************
+* Menuitem *
+************
+hifiLookAndFeelMI.label=HiFi
+hifiLookAndFeelMI.icon=
+hifiLookAndFeelMI.shortcut=
+hifiLookAndFeelMI.toolTip=
+hifiLookAndFeelMI.actionCommand=hifiLookAndFeelMI
+
+acrylLookAndFeelMI.label=Acryl
+acrylLookAndFeelMI.icon=
+acrylLookAndFeelMI.shortcut=
+acrylLookAndFeelMI.toolTip=
+acrylLookAndFeelMI.actionCommand=acrylLookAndFeelMI
+
+aeroLookAndFeelMI.label=Aero
+aeroLookAndFeelMI.icon=
+aeroLookAndFeelMI.shortcut=
+aeroLookAndFeelMI.toolTip=
+aeroLookAndFeelMI.actionCommand=aeroLookAndFeelMI
+
+aluminiumLookAndFeelMI.label=Aluminium
+aluminiumLookAndFeelMI.icon=
+aluminiumLookAndFeelMI.shortcut=
+aluminiumLookAndFeelMI.toolTip=
+aluminiumLookAndFeelMI.actionCommand=aluminiumLookAndFeelMI
+
+bernsteinLookAndFeelMI.label=Bernstein
+bernsteinLookAndFeelMI.icon=
+bernsteinLookAndFeelMI.shortcut=
+bernsteinLookAndFeelMI.toolTip=
+bernsteinLookAndFeelMI.actionCommand=bernsteinLookAndFeelMI
+
+fastLookAndFeelMI.label=Fast
+fastLookAndFeelMI.icon=
+fastLookAndFeelMI.shortcut=
+fastLookAndFeelMI.toolTip=
+fastLookAndFeelMI.actionCommand=fastLookAndFeelMI
+
+graphiteLookAndFeelMI.label=Graphite
+graphiteLookAndFeelMI.icon=
+graphiteLookAndFeelMI.shortcut=
+graphiteLookAndFeelMI.toolTip=
+graphiteLookAndFeelMI.actionCommand=graphiteLookAndFeelMI
+
+lunaLookAndFeelMI.label=Luna
+lunaLookAndFeelMI.icon=
+lunaLookAndFeelMI.shortcut=
+lunaLookAndFeelMI.toolTip=
+lunaLookAndFeelMI.actionCommand=lunaLookAndFeelMI
+
+mcWinLookAndFeelMI.label=McWin
+mcWinLookAndFeelMI.icon=
+mcWinLookAndFeelMI.shortcut=
+mcWinLookAndFeelMI.toolTip=
+mcWinLookAndFeelMI.actionCommand=mcWinLookAndFeelMI
+
+mintLookAndFeelMI.label=Mint
+mintLookAndFeelMI.icon=
+mintLookAndFeelMI.shortcut=
+mintLookAndFeelMI.toolTip=
+mintLookAndFeelMI.actionCommand=mintLookAndFeelMI
+
+noireLookAndFeelMI.label=Noire
+noireLookAndFeelMI.icon=
+noireLookAndFeelMI.shortcut=
+noireLookAndFeelMI.toolTip=
+noireLookAndFeelMI.actionCommand=noireLookAndFeelMI
+
+smartLookAndFeelMI.label=Smart
+smartLookAndFeelMI.icon=
+smartLookAndFeelMI.shortcut=
+smartLookAndFeelMI.toolTip=
+smartLookAndFeelMI.actionCommand=smartLookAndFeelMI
+
+textureLookAndFeelMI.label=Texture
+textureLookAndFeelMI.icon=
+textureLookAndFeelMI.shortcut=
+textureLookAndFeelMI.toolTip=
+textureLookAndFeelMI.actionCommand=textureLookAndFeelMI
+
+nimbusMI.label=Nimbus
+nimbusMI.icon=
+nimbusMI.shortcut=
+nimbusMI.toolTip=
+nimbusMI.actionCommand=nimbusMI
+
+exitMI.label=Quit
+exitMI.icon=images/quit.png
+exitMI.shortcut=
+exitMI.toolTip=
+exitMI.actionCommand=exitMI
+
+settingsMI.label=Preferences
+settingsMI.icon=images/settings.png
+settingsMI.shortcut=
+settingsMI.toolTip=
+settingsMI.actionCommand=settingsMI
+
+updateMI.label=Update
+updateMI.icon=images/update.png
+updateMI.shortcut=
+updateMI.toolTip=
+updateMI.actionCommand=updateMI
+
+importMI.label=Import ...
+importMI.icon=images/import.png
+importMI.shortcut=
+importMI.toolTip=Using the import function you can import an exported file to restore all your champion settings. Attention, this will override the current settings.
+importMI.actionCommand=importMI
+
+exportMI.label=Export ...
+exportMI.icon=images/export.png
+exportMI.shortcut=
+exportMI.toolTip=Using the export function you can export all your champion settings. This settings can be imported later again. The export function exports the settings for all champion into one single file.
+exportMI.actionCommand=exportMI
+
+donateMI.label=Donate
+donateMI.icon=images/paypal.png
+donateMI.shortcut=
+donateMI.toolTip=
+donateMI.actionCommand=donateMI
+
+aboutMI.label=About
+aboutMI.icon=images/about.png
+aboutMI.shortcut=
+aboutMI.toolTip=
+aboutMI.actionCommand=aboutMI
+
+licensesMI.label=Licenses
+licensesMI.icon=images/license.png
+licensesMI.shortcut=
+licensesMI.toolTip=
+licensesMI.actionCommand=licensesMI
+
+debugMI.label=Debug
+debugMI.icon=images/debug.png
+debugMI.shortcut=
+debugMI.toolTip=This will open the Debug Console which will output all Debug logs.
+debugMI.actionCommand=debugMI
+
+
+***************
+* JTabbedPane *
+***************
+tabP.toolTip=
+
+
+********
+* Tabs *
+********
+smartcastTab=Castmanager
+champinfoTab=Champion Notes

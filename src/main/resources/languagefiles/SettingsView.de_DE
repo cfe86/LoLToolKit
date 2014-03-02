@@ -1,0 +1,172 @@
+window=Einstellungen
+
+valid=Pfad ist gültig
+invalid=Path ist ungültig
+
+WriteConfigError=Fehler beim schreiben der settings.conf
+
+***********
+* JButton *
+***********
+inputOpenB.label=
+inputOpenB.icon=images/openFolder.png
+inputOpenB.shortcut=
+inputOpenB.actionCommand=inputOpenB
+inputOpenB.toolTip=
+
+lolPathOpenB.label=
+lolPathOpenB.icon=images/openFolder.png
+lolPathOpenB.shortcut=
+lolPathOpenB.actionCommand=lolPathOpenB
+lolPathOpenB.toolTip=
+
+saveB.label=speichern
+saveB.icon=
+saveB.shortcut=
+saveB.actionCommand=saveB
+saveB.toolTip=
+
+cancelB.label=abbrechen
+cancelB.icon=
+cancelB.shortcut=
+cancelB.actionCommand=cancelB
+cancelB.toolTip=
+
+
+**********
+* JPanel *
+**********
+lolPathP.label=<html><b>LoL Pfad:</b><html>
+lolPathP.toolTip=
+
+hotkeyPrefixP.label=<html><b>Hotkey Prefix:</b><html>
+hotkeyPrefixP.toolTip=
+
+miscP.label=<html><b>Sonstiges:</b><html>
+miscP.toolTip=
+
+
+*************
+* JCheckBox *
+*************
+useLolPathChB.label=nutze LoL Pfad
+useLolPathChB.icon=
+useLolPathChB.shortcut=
+useLolPathChB.actionCommand=useLolPathChB
+useLolPathChB.toolTip=
+
+
+**********
+* JLabel *
+**********
+lolPathJL.label=LoL Pfad:
+lolPathJL.icon=
+lolPathJL.toolTip=
+
+gamecfgJL.label=game.cfg Pfad:
+gamecfgJL.icon=
+gamecfgJL.toolTip=
+
+pathValidJL.label=valid
+pathValidJL.icon=
+pathValidJL.toolTip=
+
+normalPrefixJL.label=normal Prefix:
+normalPrefixJL.icon=
+normalPrefixJL.toolTip=
+
+smartcastPrefixJL.label=schnell zaubern Prefix:
+smartcastPrefixJL.icon=
+smartcastPrefixJL.toolTip=
+
+selfcastPrefixJL.label=selbst zaubern Prefix:
+selfcastPrefixJL.icon=
+selfcastPrefixJL.toolTip=
+
+lvlupPrefixJL.label=level up prefix:
+lvlupPrefixJL.icon=
+lvlupPrefixJL.toolTip=
+
+normalWhenSmartcastPrefixJL.label=normal Prefix bei schnelles zaubern:
+normalWhenSmartcastPrefixJL.icon=
+normalWhenSmartcastPrefixJL.toolTip=
+
+normalWhenSelfcastPrefixJL.label=normal Prefix bei selbst zaubern:
+normalWhenSelfcastPrefixJL.icon=
+normalWhenSelfcastPrefixJL.toolTip=
+
+normalWhenSelfAndSmartcastPrefixJL.label=normal Prefix mit schnelles+selbst zaubern:
+normalWhenSelfAndSmartcastPrefixJL.icon=
+normalWhenSelfAndSmartcastPrefixJL.toolTip=
+
+inputPathJL.label=input.ini Pfad:
+inputPathJL.icon=
+inputPathJL.toolTip=
+
+imageLengthJL.label=Portrait Länge:
+imageLengthJL.icon=
+imageLengthJL.toolTip=
+
+spellItemLengthJL.label=Zauber/Item Länge:
+spellItemLengthJL.icon=
+spellItemLengthJL.toolTip=
+
+summonerPerLineJL.label=Avatarzauber pro Zeile:
+summonerPerLineJL.icon=
+summonerPerLineJL.toolTip=
+
+
+**************
+* JTextField *
+**************
+lolPathTF.toolTip=Der Pfad zum LoL Wurzel Verzeichnis. In diesem Verzeichnis befindet sich beispielsweise die lol.launcher.exe.
+
+inputTF.toolTip=
+
+inputPathTF.toolTip=Der relative Pfad vom LoL Wurzelverzeichnis zur input.ini Datei. Normalweise muss dieser Eintrag nicht geändert werden.
+
+gamecfgTF.toolTip=Der relative Pfad vom LoL Wurzelverzeichnis zur game.cfg Datei. Normalweise muss dieser Eintrag nicht geändert werden.
+
+
+*************
+* JComboBox *
+*************
+normalPrefixCB.shortcut=
+normalPrefixCB.actionCommand=normalPrefixCB
+normalPrefixCB.toolTip=Die Taste die zusätzlich zum Hotkey des Zaubers gedrückt werden muss, um den Zauber normal zu zaubern. Z.B. wenn weder schnell zaubern noch auf sich selbst zaubern gewählt ist, und man wählt als Prefix shift, so würde um den zauber normal zu zaubern shift+q gedrückt werden müssen, um den ersten Zauber zu zaubern. Ist kein prefix gesetzt, so reicht es aus q zu drücken.
+
+smartcastPrefixCB.shortcut=
+smartcastPrefixCB.actionCommand=smartcastPrefixCB
+smartcastPrefixCB.toolTip=Die Taste die zusätzlich zum Hotkey des Zaubers gedrückt werden muss, um den Zauber schnell zu zaubern, wenn schnell zaubern nicht ausgewählt wurde. Ist beispielsweise schnell zaubern nicht ausgewählt und man wählt als Prefix so müsste shift+q gedrückt werden, um den ersten Zauber schnell zu zaubern. Ist schnell zaubern ausgewählt, so wird der Prefix von normal zaubern stattdessen verwendet.
+
+selfcastPrefixCB.shortcut=
+selfcastPrefixCB.actionCommand=selfcastPrefixCB
+selfcastPrefixCB.toolTip=Die Taste die zusätzlich zum Hotkey des Zaubers gedrückt werden muss, um den Zauber auf sich selbst zu zaubern, wenn auf sich selbst zaubern nicht ausgewählt wurde. Ist beispielsweise auf sich selbst zaubern nicht ausgewählt und man wählt als Prefix so müsste shift+q gedrückt werden, um den ersten Zauber auf sich selbst zu zaubern. Ist auf sich selbst zaubern ausgewählt, so wird der Prefix von normal zaubern stattdessen verwendet.
+
+lvlupPrefixCB.shortcut=
+lvlupPrefixCB.actionCommand=lvlupPrefixCB
+lvlupPrefixCB.toolTip=Die Taste die zusätzlich zum Hotkey des Zaubers gedrückt werden muss, um diesen Zauber zu leveln.
+
+normalWhenSmartcastPrefixCB.shortcut=
+normalWhenSmartcastPrefixCB.actionCommand=normalWhenSmartcastPrefixCB
+normalWhenSmartcastPrefixCB.toolTip=Die Taste die zusätzlich zum Hotkey des Zaubers gedrückt werden muss, um den Zauber normal zu zaubern, wenn schnell zaubern ausgewählt ist. Ist beispielsweise schnell zaubern ausgewählt und der Zauber soll normal gezaubert werden, so müsste der gewählte Prefix+Hotkey des Zaubers gedrückt werden, um ihn normal zu zaubern.
+
+normalWhenSelfcastPrefixCB.shortcut=
+normalWhenSelfcastPrefixCB.actionCommand=normalWhenSelfcastPrefixCB
+normalWhenSelfcastPrefixCB.toolTip=Die Taste die zusätzlich zum Hotkey des Zaubers gedrückt werden muss, um den Zauber normal zu zaubern, wenn auf sich selbst zaubern ausgewählt ist. Ist beispielsweise auf sich selbst zaubern ausgewählt und der Zauber soll normal gezaubert werden, so müsste der gewählte Prefix+Hotkey des Zaubers gedrückt werden, um ihn normal zu zaubern.
+
+normalWhenSelfAndSmartcastPrefixCB.shortcut=
+normalWhenSelfAndSmartcastPrefixCB.actionCommand=normalWhenSelfAndSmartcastPrefixCB
+normalWhenSelfAndSmartcastPrefixCB.toolTip=Die Taste die zusätzlich zum Hotkey des Zaubers gedrückt werden muss, um den Zauber normal zu zaubern, wenn selbst+schnell zaubern ausgewählt ist. Ist beispielsweise selbst+schnell zaubern ausgewählt und der Zauber soll normal gezaubert werden, so müsste der gewählte Prefix+Hotkey des Zaubers gedrückt werden, um ihn normal zu zaubern.
+
+imageLengthCB.shortcut=
+imageLengthCB.actionCommand=imageLengthCB
+imageLengthCB.toolTip=Gibt die Länge des Champion Portraits in Pixel an. Dieses Bild hat eine Länge von 120 Pixel. Dies ist daher auch der optimale Wert. Für einen anderen Wert würde das Bild skaliert werden müssen.
+
+spellItemLengthCB.shortcut=
+spellItemLengthCB.actionCommand=spellItemLengthCB
+spellItemLengthCB.toolTip=Gibt die Länge der Zauber und Item Bilder in Pixel an. Diese Bilder haben eine Länge von 64 Pixel. Dies ist daher auch der optimale Wert. Für einen anderen Wert würde das Bild skaliert werden müssen.
+
+summonerPerLineCB.shortcut=
+summonerPerLineCB.actionCommand=summonerPerLineCB
+summonerPerLineCB.toolTip=Gibt an wieviele Avatarzauber in einer Zeile im der Avatarzauber Auswahlbildschirm sein sollen.

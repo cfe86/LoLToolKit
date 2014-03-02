@@ -1,0 +1,89 @@
+writeError=Couldn't write the file to the HDD. Maybe the folder is write protected?
+convertError=Error while parsing the necessary ChampionInfo.xml.
+
+***********
+* JButton *
+***********
+newB.label=new ...
+newB.icon=
+newB.shortcut=
+newB.actionCommand=newB
+newB.toolTip=
+
+editB.label=edit ...
+editB.icon=
+editB.shortcut=
+editB.actionCommand=editB
+editB.toolTip=
+
+deleteB.label=delete ...
+deleteB.icon=
+deleteB.shortcut=
+deleteB.actionCommand=deleteB
+deleteB.toolTip=
+
+
+**********
+* JPanel *
+**********
+tableP.label=<html><b>Skill Order:</b><html>
+tableP.toolTip=
+
+runeMasterySumP.label=<html><b>Summoner Spells, Rune- and Mastery Pages:</b><html>
+runeMasterySumP.toolTip=
+
+chooseP.label=<html><b>Sheet:</b><html>
+chooseP.toolTip=
+
+dataP.label=<html><b>Notes:</b><html>
+dataP.toolTip=
+
+
+**************
+* ImagePanel *
+**************
+summoner1IP.toolTip=Summoner Spell 1
+
+summoner2IP.toolTip=Summoner Spell 2
+
+
+**********
+* JTable *
+**********
+tableT.toolTip=
+
+
+***************
+* JEditorPane *
+***************
+dataEP.toolTip=
+
+
+*************
+* JComboBox *
+*************
+positionCB.shortcut=
+positionCB.actionCommand=positionCB
+positionCB.toolTip=
+
+
+**********
+* JLabel *
+**********
+runepageJL.label=<html><b>Runepage:</b></html>
+runepageJL.icon=
+runepageJL.toolTip=
+
+runepageShowJL.label=<not selected>
+runepageShowJL.icon=
+runepageShowJL.toolTip=
+
+masteryJL.label=<html><b>Mastery Page:</b></html>
+masteryJL.icon=
+masteryJL.toolTip=
+
+masteryShowJL.label=<not selected>
+masteryShowJL.icon=
+masteryShowJL.toolTip=
+
+

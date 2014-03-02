@@ -1,0 +1,49 @@
+window=About
+
+
+**********
+* JLabel *
+**********
+nameJL.label=<html><span STYLE="font-family: Georgia; font-size: 45pt">LoL Tool Kit</span></html>
+nameJL.icon=
+nameJL.toolTip=
+
+versionJL.label=Version:
+versionJL.icon=
+versionJL.toolTip=
+
+versionTextJL.label={0}
+versionTextJL.icon=
+versionTextJL.toolTip=
+
+softwareUpdateJL.label=Last Software Update:
+softwareUpdateJL.icon=
+softwareUpdateJL.toolTip=
+
+softwareUpdateTextJL.label={0}
+softwareUpdateTextJL.icon=
+softwareUpdateTextJL.toolTip=
+
+lastFastUpdateJL.label=Last Data Update:
+lastFastUpdateJL.icon=
+lastFastUpdateJL.toolTip=
+
+lastFastUpdateTextJL.label={0}
+lastFastUpdateTextJL.icon=
+lastFastUpdateTextJL.toolTip=
+
+developedJL.label=Developed by:
+developedJL.icon=
+developedJL.toolTip=
+
+developedTextJL.label=Christian Feier <ChristianFeier@gmx.de>
+developedTextJL.icon=
+developedTextJL.toolTip=
+
+riotJL.label=Chamion, Spell and Item images (c) Riot Games
+riotJL.icon=
+riotJL.toolTip=
+
+copyrightJL.label=Copyright (c) 2014, Christian Feier
+copyrightJL.icon=
+copyrightJL.toolTip=

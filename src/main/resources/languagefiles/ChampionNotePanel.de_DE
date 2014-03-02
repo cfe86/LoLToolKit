@@ -1,0 +1,87 @@
+writeError=Konnte eine Datei von der Festplatte nicht laden. Ist der Ordner schreibgeschützt?
+convertError=Fehler beim parser der ChampionInfo.xml Datei.
+
+***********
+* JButton *
+***********
+newB.label=neu ...
+newB.icon=
+newB.shortcut=
+newB.actionCommand=newB
+newB.toolTip=
+
+editB.label=editieren ...
+editB.icon=
+editB.shortcut=
+editB.actionCommand=editB
+editB.toolTip=
+
+deleteB.label=löschen ...
+deleteB.icon=
+deleteB.shortcut=
+deleteB.actionCommand=deleteB
+deleteB.toolTip=
+
+
+**********
+* JPanel *
+**********
+tableP.label=<html><b>Fähigkeiten:</b><html>
+tableP.toolTip=
+
+runeMasterySumP.label=<html><b>Avatarzauber, Runen- und Meisterschaftsseite:</b><html>
+runeMasterySumP.toolTip=
+
+chooseP.label=<html><b>Notiz:</b><html>
+chooseP.toolTip=
+
+dataP.label=<html><b>Notizen:</b><html>
+dataP.toolTip=
+
+
+**************
+* ImagePanel *
+**************
+summoner1IP.toolTip=Avatarzauber 1
+
+summoner2IP.toolTip=Avatarzauber 2
+
+
+**********
+* JTable *
+**********
+tableT.toolTip=
+
+
+***************
+* JEditorPane *
+***************
+dataEP.toolTip=
+
+
+*************
+* JComboBox *
+*************
+positionCB.shortcut=
+positionCB.actionCommand=positionCB
+positionCB.toolTip=
+
+
+**********
+* JLabel *
+**********
+runepageJL.label=<html><b>Runenseite:</b></html>
+runepageJL.icon=
+runepageJL.toolTip=
+
+runepageShowJL.label=<nicht ausgewählt>
+runepageShowJL.icon=
+runepageShowJL.toolTip=
+
+masteryJL.label=<html><b>Meisterschaftsseite:</b></html>
+masteryJL.icon=
+masteryJL.toolTip=
+
+masteryShowJL.label=<nicht ausgewählt>
+masteryShowJL.icon=
+masteryShowJL.toolTip=

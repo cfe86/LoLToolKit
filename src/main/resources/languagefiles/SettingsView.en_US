@@ -1,0 +1,172 @@
+window=Settings
+
+valid=Path is valid
+invalid=Path is invalid
+
+WriteConfigError=Error while writing settings.conf.
+
+***********
+* JButton *
+***********
+inputOpenB.label=
+inputOpenB.icon=images/openFolder.png
+inputOpenB.shortcut=
+inputOpenB.actionCommand=inputOpenB
+inputOpenB.toolTip=
+
+lolPathOpenB.label=
+lolPathOpenB.icon=images/openFolder.png
+lolPathOpenB.shortcut=
+lolPathOpenB.actionCommand=lolPathOpenB
+lolPathOpenB.toolTip=
+
+saveB.label=save
+saveB.icon=
+saveB.shortcut=
+saveB.actionCommand=saveB
+saveB.toolTip=
+
+cancelB.label=cancel
+cancelB.icon=
+cancelB.shortcut=
+cancelB.actionCommand=cancelB
+cancelB.toolTip=
+
+
+**********
+* JPanel *
+**********
+lolPathP.label=<html><b>LoL Path:</b><html>
+lolPathP.toolTip=
+
+hotkeyPrefixP.label=<html><b>Hotkey Prefix:</b><html>
+hotkeyPrefixP.toolTip=
+
+miscP.label=<html><b>Misc:</b><html>
+miscP.toolTip=
+
+
+*************
+* JCheckBox *
+*************
+useLolPathChB.label=use LoL Path
+useLolPathChB.icon=
+useLolPathChB.shortcut=
+useLolPathChB.actionCommand=useLolPathChB
+useLolPathChB.toolTip=
+
+
+**********
+* JLabel *
+**********
+lolPathJL.label=LoL path:
+lolPathJL.icon=
+lolPathJL.toolTip=
+
+gamecfgJL.label=game.cfg path:
+gamecfgJL.icon=
+gamecfgJL.toolTip=
+
+pathValidJL.label=valid
+pathValidJL.icon=
+pathValidJL.toolTip=
+
+normalPrefixJL.label=normal prefix:
+normalPrefixJL.icon=
+normalPrefixJL.toolTip=
+
+smartcastPrefixJL.label=quick cast prefix:
+smartcastPrefixJL.icon=
+smartcastPrefixJL.toolTip=
+
+selfcastPrefixJL.label=self cast prefix:
+selfcastPrefixJL.icon=
+selfcastPrefixJL.toolTip=
+
+lvlupPrefixJL.label=level up prefix:
+lvlupPrefixJL.icon=
+lvlupPrefixJL.toolTip=
+
+normalWhenSmartcastPrefixJL.label=normal prefix with quick cast:
+normalWhenSmartcastPrefixJL.icon=
+normalWhenSmartcastPrefixJL.toolTip=
+
+normalWhenSelfcastPrefixJL.label=normal prefix with self cast:
+normalWhenSelfcastPrefixJL.icon=
+normalWhenSelfcastPrefixJL.toolTip=
+
+normalWhenSelfAndSmartcastPrefixJL.label=normal prefix with quick+self cast:
+normalWhenSelfAndSmartcastPrefixJL.icon=
+normalWhenSelfAndSmartcastPrefixJL.toolTip=
+
+inputPathJL.label=input.ini path:
+inputPathJL.icon=
+inputPathJL.toolTip=
+
+imageLengthJL.label=Portrait length:
+imageLengthJL.icon=
+imageLengthJL.toolTip=
+
+spellItemLengthJL.label=Spell/Item length:
+spellItemLengthJL.icon=
+spellItemLengthJL.toolTip=
+
+summonerPerLineJL.label=Summoner Spells per line:
+summonerPerLineJL.icon=
+summonerPerLineJL.toolTip=
+
+
+**************
+* JTextField *
+**************
+lolPathTF.toolTip=The Path to your LoL Root Directory, e.g. the lol.launcher.exe is in this folder.
+
+inputTF.toolTip=
+
+inputPathTF.toolTip=The relative path from the LoL directory to the input.ini file. Usually you don't have to change this.
+
+gamecfgTF.toolTip=The relative path from the LoL Root directory to the game.cfg file. Usually you don't have to change this.
+
+
+*************
+* JComboBox *
+*************
+normalPrefixCB.shortcut=
+normalPrefixCB.actionCommand=normalPrefixCB
+normalPrefixCB.toolTip=The key which should additionally be pressed to the spell hotkey for a normal cast. E.g. if neither quick nor self cast is selected and you choose shift as the prefix, you would have to press shift+q to cast the first spell. If no prefix is selected only q needs to be pressed.
+
+smartcastPrefixCB.shortcut=
+smartcastPrefixCB.actionCommand=smartcastPrefixCB
+smartcastPrefixCB.toolTip=The key which should additionally be pressed to the spell hotkey for a quick cast if quick cast is not selected. E.g. if quick cast is not selected and you choose shift as the prefix, you would have to press shift+q to quick cast the first spell. If quick cast is selected the normal prefix is needed.
+
+selfcastPrefixCB.shortcut=
+selfcastPrefixCB.actionCommand=selfcastPrefixCB
+selfcastPrefixCB.toolTip=The key which should additionally be pressed to the spell hotkey for a self cast if self cast is not selected. E.g. if self cast is not selected and you choose shift as the prefix, you would have to press shift+q to self cast the first spell. If self cast is selected the normal prefix is needed.
+
+lvlupPrefixCB.shortcut=
+lvlupPrefixCB.actionCommand=lvlupPrefixCB
+lvlupPrefixCB.toolTip=The key which should be pressed additionally to the spell hotkey to level up this spell.
+
+normalWhenSmartcastPrefixCB.shortcut=
+normalWhenSmartcastPrefixCB.actionCommand=normalWhenSmartcastPrefixCB
+normalWhenSmartcastPrefixCB.toolTip=The prefix which should additionally be pressed to the spell hotkey for a normal cast if quick cast is selected. E.g. if quick cast is selected and you want to cast the spell on the normal way, then you would have to press the chosen prefix and the spell hotkey.
+
+normalWhenSelfcastPrefixCB.shortcut=
+normalWhenSelfcastPrefixCB.actionCommand=normalWhenSelfcastPrefixCB
+normalWhenSelfcastPrefixCB.toolTip=The prefix which should additionally be pressed to the spell hotkey for a normal cast if self cast is selected. E.g. if self cast is selected and you want to cast the spell on the normal way, then you would have to press the chosen prefix and the spell hotkey.
+
+normalWhenSelfAndSmartcastPrefixCB.shortcut=
+normalWhenSelfAndSmartcastPrefixCB.actionCommand=normalWhenSelfAndSmartcastPrefixCB
+normalWhenSelfAndSmartcastPrefixCB.toolTip=The prefix which should additionally be pressed to the spell hotkey for a normal cast if self+quick cast is selected. E.g. if self+quick cast is selected and you want to cast the spell on the normal way, then you would have to press the chosen prefix and the spell hotkey.
+
+imageLengthCB.shortcut=
+imageLengthCB.actionCommand=imageLengthCB
+imageLengthCB.toolTip=The length of the champion portrait in pixel. The default length is 120pixel, so this is the optimal length. For every other length it has to be scaled.
+
+spellItemLengthCB.shortcut=
+spellItemLengthCB.actionCommand=spellItemLengthCB
+spellItemLengthCB.toolTip=The length of spell and item images. The default length is 64pixel, so this is the optimal length. For every other length it has to be scaled.
+
+summonerPerLineCB.shortcut=
+summonerPerLineCB.actionCommand=summonerPerLineCB
+summonerPerLineCB.toolTip=Defines how many summoner spells should be in one row in the summoner spell chooser window.

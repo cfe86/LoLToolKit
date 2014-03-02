@@ -1,0 +1,49 @@
+window=Updater
+
+updateAvailable=neues update verfügbar
+updateNotAvailable=kein update verfügbar
+
+fastUpdateUnavailable=Es trat ein Problem beim holen der nötigen Informationen auf. Schnelles update ist daher diesesmal nicht möglich.
+ErrorWhileUpdating=Es trat ein Fehler beim updaten auf. Vielleicht sind die Server beschäftigt oder offline. Bitte versuchen sie es später erneut.
+updateSuccessful=Update erfolgreich!
+
+***********
+* JButton *
+***********
+updateB.label=update
+updateB.icon=
+updateB.shortcut=
+updateB.actionCommand=updateB
+updateB.toolTip=
+
+
+**********
+* JPanel *
+**********
+updateP.label=<html><b>Updater:</b><html>
+updateP.toolTip=
+
+
+**********
+* JLabel *
+**********
+introJL.labelJar=languagefiles/texts/UpdateIntro.de_DE
+introJL.icon=
+introJL.toolTip=
+
+
+****************
+* JRadioButton *
+****************
+fastUpdateRB.label=schnelles update {0}
+fastUpdateRB.icon=
+fastUpdateRB.shortcut=
+fastUpdateRB.actionCommand=fastUpdateRB
+fastUpdateRB.toolTip=
+
+
+slowUpdateRB.label=langsames update
+slowUpdateRB.icon=
+slowUpdateRB.shortcut=
+slowUpdateRB.actionCommand=slowUpdateRB
+slowUpdateRB.toolTip=

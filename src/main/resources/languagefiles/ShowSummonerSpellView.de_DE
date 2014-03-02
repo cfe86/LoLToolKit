@@ -1,0 +1,9 @@
+window=Avatarzauber
+
+imageNotFound=Konnte ein Bild nicht laden. Vielleicht ist ein Update nötig um dieses Problem zu beheben.
+
+**********
+* JPanel *
+**********
+paneP.label=<html><b>Avatarzauber:</b><html>
+paneP.toolTip=

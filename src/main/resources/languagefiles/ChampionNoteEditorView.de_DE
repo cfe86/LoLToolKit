@@ -1,0 +1,145 @@
+window=Notiz Editor
+
+loadImageError=Konnte ein Bild nicht laden. Sie sollten eventuell ein Update über Einstellungen -> Update machen um es zu reparieren.
+notAllInput=Sie müssen mindestens einen Namen eintragen und für jedes Level muss genau ein Punkt vergeben werden.
+noNameGiven=Kein Name eingetragen.
+noSkillGiven=Sie müssen genau einen Punkt pro Level vergeben haben.
+notaNumber=Der eingetragene Wert muss eine Zahl sein.
+getRows=Wieviele Zeilen soll die Liste haben?
+
+***********
+* JButton *
+***********
+saveB.label=speichern
+saveB.icon=
+saveB.shortcut=
+saveB.actionCommand=saveB
+saveB.toolTip=
+
+cancelB.label=Abbrechen
+cancelB.icon=
+cancelB.shortcut=
+cancelB.actionCommand=cancelB
+cancelB.toolTip=
+
+boldB.label=
+boldB.icon=images/bold.png
+boldB.shortcut=
+boldB.actionCommand=boldB
+boldB.toolTip=
+
+italicB.label=
+italicB.icon=images/italic.png
+italicB.shortcut=
+italicB.actionCommand=italicB
+italicB.toolTip=
+
+underlineB.label=
+underlineB.icon=images/underline.png
+underlineB.shortcut=
+underlineB.actionCommand=underlineB
+underlineB.toolTip=
+
+listNrB.label=
+listNrB.icon=images/listNr.png
+listNrB.shortcut=
+listNrB.actionCommand=listNrB
+listNrB.toolTip=
+
+listUnnrB.label=
+listUnnrB.icon=images/listUnnr.png
+listUnnrB.shortcut=
+listUnnrB.actionCommand=listUnnrB
+listUnnrB.toolTip=
+
+previewB.label=Vorschau
+previewB.icon=
+previewB.shortcut=
+previewB.actionCommand=previewB
+previewB.toolTip=
+
+addB.label=hinzuf.
+addB.icon=
+addB.shortcut=
+addB.actionCommand=addB
+addB.toolTip=
+
+
+**********
+* JPanel *
+**********
+tableP.label=<html><b>Fähigkeiten:</b><html>
+tableP.toolTip=
+
+runeMasterySumP.label=<html><b>Avatarzauber, Runen- und Meisterschaftsseite:</b><html>
+runeMasterySumP.toolTip=
+
+nameP.label=<html><b>Notiz:</b><html>
+nameP.toolTip=
+
+dataP.label=<html><b>Notizen:</b><html>
+dataP.toolTip=
+
+
+**************
+* ImagePanel *
+**************
+summoner1IP.toolTip=Avatarzauber 1
+
+summoner2IP.toolTip=Avatarzauber 2
+
+
+**********
+* JTable *
+**********
+tableT.toolTip=
+
+
+***************
+* JEditorPane *
+***************
+dataEP.toolTip=
+
+
+**********
+* JLabel *
+**********
+runepageJL.label=<html><b>Runenseite:</b></html>
+runepageJL.icon=
+runepageJL.toolTip=
+
+nameJL.label=name:
+nameJL.icon=
+nameJL.toolTip=
+
+masteryJL.label=<html><b>Meisterschaftsseite:</b></html>
+masteryJL.icon=
+masteryJL.toolTip=
+
+
+*************
+* JCheckBox *
+*************
+htmlChB.label=nutze grafische Aufbereitung
+htmlChB.icon=
+htmlChB.shortcut=
+htmlChB.actionCommand=htmlChB
+htmlChB.toolTip=
+
+
+**************
+* JTextField *
+**************
+nameTF.toolTip=
+
+runepageTF.toolTip=
+
+masteryTF.toolTip=
+
+
+*************
+* JComboBox *
+*************
+itemsCB.shortcut=
+itemsCB.actionCommand=itemsCB
+itemsCB.toolTip=

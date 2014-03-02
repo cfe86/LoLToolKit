@@ -1,0 +1,274 @@
+loadImageError=Es konnte ein Bild nicht von der Festplatte geladen werden. Eventuell löst ein update dieses Problem. Um ein update durchzuführen klicken sie auch Einstellugen -> Update.
+writeError=Konnte eine Datei nicht auf die Festplatte schreiben. Ist der Ordner vielleicht schreibgeschützt?
+readError=Konnte eine Datei nicht lesen. Vielleicht ist diese beschädigt. Ein update könnte helfen.
+
+invalidPath=Kein gültiger LoL Pfad gefunden. Zum setzen Einstellungen -> Einstellungen
+
+done=fertig
+
+***********
+* JButton *
+***********
+chooseB.label=auswählen
+chooseB.icon=
+chooseB.shortcut=
+chooseB.actionCommand=chooseB
+chooseB.toolTip=
+
+saveB.label=speichern
+saveB.icon=
+saveB.shortcut=
+saveB.actionCommand=saveB
+saveB.toolTip=
+
+resetB.label=zurücksetzen
+resetB.icon=
+resetB.shortcut=
+resetB.actionCommand=resetB
+resetB.toolTip=
+
+
+**********
+* JPanel *
+**********
+champP.label=<html><b>Champion:</b><html>
+champP.toolTip=
+
+trinketP.label=<html><b>Trinket:</b><html>
+trinketP.toolTip=
+
+spellP.label=<html><b>Zauber:</b><html>
+spellP.toolTip=
+
+itemP.label=<html><b>Items:</b><html>
+itemP.toolTip=
+
+
+**************
+* ImagePanel *
+**************
+item1IP.toolTip=Item 1
+
+item2IP.toolTip=Item 2
+
+item3IP.toolTip=Item 3
+
+item4IP.toolTip=Item 4
+
+item5IP.toolTip=Item 5
+
+item6IP.toolTip=Item 6
+
+trinketIP.toolTip=Trinket
+
+
+**********
+* JLabel *
+**********
+nameJL.label=<html><font size="5">{0}</font><html>
+nameJL.icon=
+nameJL.toolTip=
+
+
+*************
+* JComboBox *
+*************
+nameCB.shortcut=
+nameCB.actionCommand=nameCB
+nameCB.toolTip=
+
+
+**************
+* JTextField *
+**************
+trinketHotkeyTF.toolTip=
+
+spell1HotkeyTF.toolTip=
+
+spell2HotkeyTF.toolTip=
+
+spell3HotkeyTF.toolTip=
+
+spell4HotkeyTF.toolTip=
+
+summonerSpell1HotkeyTF.toolTip=
+
+summonerSpell2HotkeyTF.toolTip=
+
+item1HotkeyTF.toolTip=
+
+item2HotkeyTF.toolTip=
+
+item3HotkeyTF.toolTip=
+
+item4HotkeyTF.toolTip=
+
+item5HotkeyTF.toolTip=
+
+item6HotkeyTF.toolTip=
+
+
+*************
+* JCheckBox *
+*************
+smartcastItem1ChB.label=schnell zaubern
+smartcastItem1ChB.icon=
+smartcastItem1ChB.shortcut=
+smartcastItem1ChB.actionCommand=smartcastItem1ChB
+smartcastItem1ChB.toolTip=
+
+selfcastItem1ChB.label=selbst zaubern
+selfcastItem1ChB.icon=
+selfcastItem1ChB.shortcut=
+selfcastItem1ChB.actionCommand=selfcastItem1ChB
+selfcastItem1ChB.toolTip=
+
+smartcastItem2ChB.label=schnell zaubern
+smartcastItem2ChB.icon=
+smartcastItem2ChB.shortcut=
+smartcastItem2ChB.actionCommand=smartcastItem2ChB
+smartcastItem2ChB.toolTip=
+
+selfcastItem2ChB.label=selbst zaubern
+selfcastItem2ChB.icon=
+selfcastItem2ChB.shortcut=
+selfcastItem2ChB.actionCommand=selfcastItem2ChB
+selfcastItem2ChB.toolTip=
+
+smartcastItem3ChB.label=schnell zaubern
+smartcastItem3ChB.icon=
+smartcastItem3ChB.shortcut=
+smartcastItem3ChB.actionCommand=smartcastItem3ChB
+smartcastItem3ChB.toolTip=
+
+selfcastItem3ChB.label=selbst zaubern
+selfcastItem3ChB.icon=
+selfcastItem3ChB.shortcut=
+selfcastItem3ChB.actionCommand=selfcastItem3ChB
+selfcastItem3ChB.toolTip=
+
+smartcastItem4ChB.label=schnell zaubern
+smartcastItem4ChB.icon=
+smartcastItem4ChB.shortcut=
+smartcastItem4ChB.actionCommand=smartcastItem4ChB
+smartcastItem4ChB.toolTip=
+
+selfcastItem4ChB.label=selbst zaubern
+selfcastItem4ChB.icon=
+selfcastItem4ChB.shortcut=
+selfcastItem4ChB.actionCommand=selfcastItem4ChB
+autoAdselfcastItem4ChBdChB.toolTip=
+
+smartcastItem5ChB.label=schnell zaubern
+smartcastItem5ChB.icon=
+smartcastItem5ChB.shortcut=
+smartcastItem5ChB.actionCommand=smartcastItem5ChB
+smartcastItem5ChB.toolTip=
+
+selfcastItem5ChB.label=selbst zaubern
+selfcastItem5ChB.icon=
+selfcastItem5ChB.shortcut=
+selfcastItem5ChB.actionCommand=selfcastItem5ChB
+selfcastItem5ChB.toolTip=
+
+smartcastItem6ChB.label=schnell zaubern
+smartcastItem6ChB.icon=
+smartcastItem6ChB.shortcut=
+smartcastItem6ChB.actionCommand=smartcastItem6ChB
+smartcastItem6ChB.toolTip=
+
+selfcastItem6ChB.label=selbst zaubern
+selfcastItem6ChB.icon=
+selfcastItem6ChB.shortcut=
+selfcastItem6ChB.actionCommand=selfcastItem6ChB
+selfcastItem6ChB.toolTip=
+
+smartcastSpell1ChB.label=schnell zaubern
+smartcastSpell1ChB.icon=
+smartcastSpell1ChB.shortcut=
+smartcastSpell1ChB.actionCommand=smartcastSpell1ChB
+smartcastSpell1ChB.toolTip=
+
+selfcastSpell1ChB.label=selbst zaubern
+selfcastSpell1ChB.icon=
+selfcastSpell1ChB.shortcut=
+selfcastSpell1ChB.actionCommand=selfcastSpell1ChB
+selfcastSpell1ChB.toolTip=
+
+smartcastSpell2ChB.label=schnell zaubern
+smartcastSpell2ChB.icon=
+smartcastSpell2ChB.shortcut=
+smartcastSpell2ChB.actionCommand=smartcastSpell2ChB
+smartcastSpell2ChB.toolTip=
+
+selfcastSpell2ChB.label=selbst zaubern
+selfcastSpell2ChB.icon=
+selfcastSpell2ChB.shortcut=
+selfcastSpell2ChB.actionCommand=selfcastSpell2ChB
+selfcastSpell2ChB.toolTip=
+
+smartcastSpell3ChB.label=schnell zaubern
+smartcastSpell3ChB.icon=
+smartcastSpell3ChB.shortcut=
+smartcastSpell3ChB.actionCommand=smartcastSpell3ChB
+smartcastSpell3ChB.toolTip=
+
+selfcastSpell3ChB.label=selbst zaubern
+selfcastSpell3ChB.icon=
+selfcastSpell3ChB.shortcut=
+selfcastSpell3ChB.actionCommand=selfcastSpell3ChB
+selfcastSpell3ChB.toolTip=
+
+smartcastSpell4ChB.label=schnell zaubern
+smartcastSpell4ChB.icon=
+smartcastSpell4ChB.shortcut=
+smartcastSpell4ChB.actionCommand=smartcastSpell4ChB
+smartcastSpell4ChB.toolTip=
+
+selfcastSpell4ChB.label=selbst zaubern
+selfcastSpell4ChB.icon=
+selfcastSpell4ChB.shortcut=
+selfcastSpell4ChB.actionCommand=selfcastSpell4ChB
+selfcastSpell4ChB.toolTip=
+
+smartcastSummonerSpell1ChB.label=schnell zaubern
+smartcastSummonerSpell1ChB.icon=
+smartcastSummonerSpell1ChB.shortcut=
+smartcastSummonerSpell1ChB.actionCommand=smartcastSummonerSpell1ChB
+smartcastSummonerSpell1ChB.toolTip=
+
+selfcastSummonerSpell1ChB.label=selbst zaubern
+selfcastSummonerSpell1ChB.icon=
+selfcastSummonerSpell1ChB.shortcut=
+selfcastSummonerSpell1ChB.actionCommand=selfcastSummonerSpell1ChB
+selfcastSummonerSpell1ChB.toolTip=
+
+smartcastSummonerSpell2ChB.label=schnell zaubern
+smartcastSummonerSpell2ChB.icon=
+smartcastSummonerSpell2ChB.shortcut=
+smartcastSummonerSpell2ChB.actionCommand=smartcastSummonerSpell2ChB
+smartcastSummonerSpell2ChB.toolTip=
+
+selfcastSummonerSpell2ChB.label=selbst zaubern
+selfcastSummonerSpell2ChB.icon=
+selfcastSummonerSpell2ChB.shortcut=
+selfcastSummonerSpell2ChB.actionCommand=selfcastSummonerSpell2ChB
+selfcastSummonerSpell2ChB.toolTip=
+
+smartcastTrinketChB.label=schnell zaubern
+smartcastTrinketChB.icon=
+smartcastTrinketChB.shortcut=
+smartcastTrinketChB.actionCommand=smartcastTrinketChB
+smartcastTrinketChB.toolTip=
+
+rangeIndicatorChB.label=zeige die Reichweite beim schnell zaubern an
+rangeIndicatorChB.icon=
+rangeIndicatorChB.shortcut=
+rangeIndicatorChB.actionCommand=rangeIndicatorChB
+rangeIndicatorChB.toolTip=
+
+overrideItemsChB.label=überschreibe Item Konfiguration
+overrideItemsChB.icon=
+overrideItemsChB.shortcut=
+overrideItemsChB.actionCommand=overrideItemsChB
+overrideItemsChB.toolTip=

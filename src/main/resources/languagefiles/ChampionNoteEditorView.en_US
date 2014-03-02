@@ -1,0 +1,145 @@
+window=Sheet Editor
+
+loadImageError=Couldn't load an image. You may update all data using Settings -> Update to repair it.
+notAllInput=You have to give a name and have to check one skill per level.
+noNameGiven=No name given.
+noSkillGiven=You have to check exactly one skill per level.
+notaNumber=The given input has to be a number.
+getRows=How many rows should the list have?
+
+***********
+* JButton *
+***********
+saveB.label=save
+saveB.icon=
+saveB.shortcut=
+saveB.actionCommand=saveB
+saveB.toolTip=
+
+cancelB.label=cancel
+cancelB.icon=
+cancelB.shortcut=
+cancelB.actionCommand=cancelB
+cancelB.toolTip=
+
+boldB.label=
+boldB.icon=images/bold.png
+boldB.shortcut=
+boldB.actionCommand=boldB
+boldB.toolTip=
+
+italicB.label=
+italicB.icon=images/italic.png
+italicB.shortcut=
+italicB.actionCommand=italicB
+italicB.toolTip=
+
+underlineB.label=
+underlineB.icon=images/underline.png
+underlineB.shortcut=
+underlineB.actionCommand=underlineB
+underlineB.toolTip=
+
+listNrB.label=
+listNrB.icon=images/listNr.png
+listNrB.shortcut=
+listNrB.actionCommand=listNrB
+listNrB.toolTip=
+
+listUnnrB.label=
+listUnnrB.icon=images/listUnnr.png
+listUnnrB.shortcut=
+listUnnrB.actionCommand=listUnnrB
+listUnnrB.toolTip=
+
+previewB.label=preview
+previewB.icon=
+previewB.shortcut=
+previewB.actionCommand=previewB
+previewB.toolTip=
+
+addB.label=add
+addB.icon=
+addB.shortcut=
+addB.actionCommand=addB
+addB.toolTip=
+
+
+**********
+* JPanel *
+**********
+tableP.label=<html><b>Skill Order:</b><html>
+tableP.toolTip=
+
+runeMasterySumP.label=<html><b>Summoner Spells, Rune- and Mastery Pages:</b><html>
+runeMasterySumP.toolTip=
+
+nameP.label=<html><b>Name:</b><html>
+nameP.toolTip=
+
+dataP.label=<html><b>Notes:</b><html>
+dataP.toolTip=
+
+
+**************
+* ImagePanel *
+**************
+summoner1IP.toolTip=Summoner Spell 1
+
+summoner2IP.toolTip=Summoner Spell 2
+
+
+**********
+* JTable *
+**********
+tableT.toolTip=
+
+
+***************
+* JEditorPane *
+***************
+dataEP.toolTip=
+
+
+**********
+* JLabel *
+**********
+runepageJL.label=<html><b>Runepage:</b></html>
+runepageJL.icon=
+runepageJL.toolTip=
+
+nameJL.label=name:
+nameJL.icon=
+nameJL.toolTip=
+
+masteryJL.label=<html><b>Mastery Page:</b></html>
+masteryJL.icon=
+masteryJL.toolTip=
+
+
+*************
+* JCheckBox *
+*************
+htmlChB.label=use markup language
+htmlChB.icon=
+htmlChB.shortcut=
+htmlChB.actionCommand=htmlChB
+htmlChB.toolTip=
+
+
+**************
+* JTextField *
+**************
+nameTF.toolTip=
+
+runepageTF.toolTip=
+
+masteryTF.toolTip=
+
+
+*************
+* JComboBox *
+*************
+itemsCB.shortcut=
+itemsCB.actionCommand=itemsCB
+itemsCB.toolTip=

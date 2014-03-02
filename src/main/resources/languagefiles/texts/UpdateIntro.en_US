@@ -1,0 +1,8 @@
+<html>
+If an update via <b>fast update</b> is available it is recommended to use it. <b>Fast update</b> just downloads all neccessary data
+from GoogleDrive if available. This version is much faster and spares the Riot server.<br />
+If you just want to repair a maybe damaged version using an update it is also recommended to use <b>fast update</b>. <br /><br />
+<b>Slow update</b> gets all neccessary information mostly from the Riot servers using the provided API and by parsing all 
+neccessary websites e.g. for each champion. This method is much slower and takes a few minutes. It is not recommended if <b>fast update</b>
+is available.
+</html>

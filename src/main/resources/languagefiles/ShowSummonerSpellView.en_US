@@ -1,0 +1,9 @@
+window=Summoner Spells
+
+imageNotFound=Couldn't find some summoner spell icons. Maybe an update will fix this problem. 
+
+**********
+* JPanel *
+**********
+paneP.label=<html><b>Summoner Spells:</b><html>
+paneP.toolTip=

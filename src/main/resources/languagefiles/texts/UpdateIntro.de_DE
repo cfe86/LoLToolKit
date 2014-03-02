@@ -1,0 +1,8 @@
+<html>
+Sollte ein Update via <b>schnelles update</b> verfügbar sein, ist es empfohlen dieses nutzen. <b>schnelles update</b> lädt alle nötigen daten direkt
+von GoogleDrive herunter falls verfügbar. Dadurch ist das update wesentlich schneller und schont die Riot Server. <br />
+Sollten sie beschädigte Dateien reparieren wollen, ist es empfohlen <b>schnelles update</b> zu nutzen. <br /><br />
+<b>langsames update</b> lädt alle nötigen Informationen von den Riot Servern (ausser Items und Summoner spells) durch die zur Verfügung gestellte API und durch parsen der einzelnen 
+Webseiten z.B. der der einzelnen Champions. Diese Variante ist wesentlich langsamer und benötigten ein paar Minuten. Es ist daher nicht zu empfehlen
+<b>langsames update</b> zu verwenden, wenn <b>schnelles update</b> verfügbar ist.
+</html>

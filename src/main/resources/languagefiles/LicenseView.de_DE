@@ -1,0 +1,64 @@
+window=Lizenzen
+
+# licenses
+## path: licenses/GPL.txt
+GPL=https://www.gnu.org/copyleft/gpl.html
+## path: licenses/CreativeCommons.txt
+CreativeCommons=http://creativecommons.org/licenses/by/4.0/legalcode
+## path: no license
+Freeware=-
+
+
+# this software
+thisSoftwareAuthor=Christian Feier <ChristianFeier@gmx.de>
+thisSoftwareProject=<html>LoL Tool Kit <a href="{0}">(link)</a></html>
+thisSoftwareProjectURL=https://github.com/cf86/LoLToolKit
+# only use an identifier which is defined under #licenses
+thisSoftwareLicense=GPL
+thisSoftwareLicensePath=licenses/license.txt
+
+# JTattoo
+jtattooAuthor=Michael Hagen
+jtattooProject=<html>JTattoo <a href="{0}">(link)</a></html>
+jtattooProjectURL=http://www.jtattoo.net/
+# only use an identifier which is defined under #licenses
+jtattooLicense=GPL
+jtattooLicensePath=licenses/GPL.txt
+
+# MigLayout
+miglayoutAuthor=MiG InfoCom
+miglayoutProject=<html>MigLayout <a href="{0}">(link)</a></html>
+miglayoutProjectURL=http://www.miglayout.com/
+# only use an identifier which is defined under #licenses
+miglayoutLicense=GPL
+miglayoutLicensePath=licenses/GPL.txt
+
+# Human-O2 icons
+humano2Author=schollidesign
+humano2Project=<html>Human-O2 <a href="{0}">(link)</a></html>
+humano2ProjectURL=http://findicons.com/pack/1035/human_o2
+# only use an identifier which is defined under #licenses
+humano2License=GPL
+humano2LicensePath=licenses/GPL.txt
+
+# Flag Icons
+flagiconsAuthor=gosquared.com
+flagiconsProject=<html>Flag Icons <a href="{0}">(link)</a></html>
+flagiconsProjectURL=http://findicons.com/pack/2758/flag_icons
+# only use an identifier which is defined under #licenses
+flagiconsLicense=Freeware
+flagiconsLicensePath=licenses/Freeware.txt
+
+***************
+* JTabbedPane *
+***************
+tabP.toolTip=
+
+********
+* Tabs *
+********
+softwareTab=LoL Tool Kit
+jtattooTab=JTattoo
+miglayoutTab=Mig Layout
+humano2Tab=Human-O2 Icons
+flagiconsTab=Flag Icons
