@@ -1,6 +1,6 @@
-# LoL Tool Kit
+# LoL Tool Kit - Technical Description
 
-A short non technical introduction can be found here: // TODO
+A short non technical introduction can be found here: https://github.com/cf86/LoLToolKit
 This document is more a technical introduction and explains how to modify this application.
 
 The LoL Tool Kit is a small helper tool for League of Legends. It acts like a construction kit and is extendable with other tabs with different functionalities. A short instruction on how to extend it can be found afterwards.
