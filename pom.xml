@@ -6,7 +6,7 @@
 	<version>1.0</version>
 	<packaging>jar</packaging>
 	<name>LoL Tool Kit</name>
-	<description>LoL Tool Kit is a small construction kit for LoL Tools with 2 default Tools, a castmanager and a champion note editor.</description>
+	<description>LoL Tool Kit is bundle of tools for League of Legends. The current version has a QuickcastManager and a Note Editor.</description>
 	<url>https://github.com/cf86/LoLToolKit</url>
 
 	<properties>
@@ -28,8 +28,8 @@
 
 	<licenses>
 		<license>
-			<name>MIT License</name>
-			<url>http://opensource.org/licenses/MIT</url>
+			<name>GPL-3.0 License</name>
+			<url>http://opensource.org/licenses/GPL-3.0</url>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
