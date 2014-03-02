@@ -20,10 +20,10 @@ Per default it offers already a Castmanager to modifty the quick and self cast o
 An installation is not neccessary and no administrator rights are needed. Just a java runtime environment needs to be installed. 
 
 **Windows**:
-Just download the \*.exe file and put in a folder of your choice (it is recommended that this folder is empty). It will work out of the box and nothing needs to be installed.
+Just download the LoLToolKit.exe ([here](https://github.com/cf86/LoLToolKit/blob/master/LoLToolKit.exe?raw=true)) file and put in a folder of your choice (it is recommended that this folder is empty). It will work out of the box and nothing needs to be installed.
 
 **Linux/Mac OS X**:
-Just download the \*.jar file and put in a folder of your choice (it is recommended that this folder is empty). You can start it out of the box using any java runtine environment.
+Just download the LoLToolKit.jar ([here](https://github.com/cf86/LoLToolKit/blob/master/LoLToolKit.jar?raw=true)) file and put in a folder of your choice (it is recommended that this folder is empty). You can start it out of the box using any java runtine environment.
 
 
 
