@@ -4,4 +4,3 @@ Champs=118
 summoner=19
 items=200
 packageURL=https://docs.google.com/uc?authuser=0&id=0B_RbeehtjF99eUs5bW1MQVFYSEU&export=download
-

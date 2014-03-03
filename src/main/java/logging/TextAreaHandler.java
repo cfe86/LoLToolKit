@@ -7,6 +7,8 @@ import javax.swing.JTextArea;
 
 public class TextAreaHandler extends Handler {
 
+	private final static int MAX_LINES = 1000;
+	
 	/**
 	 * the textarea where to output the debug log, only one textarea can be set
 	 */
@@ -55,6 +57,10 @@ public class TextAreaHandler extends Handler {
 
 		String message = getFormatter().format(rec);
 
+		// clean debug box 
+		if (ta.getText().split("\n").length > MAX_LINES)
+			ta.setText("");
+		
 		ta.append(message);
 	}
 

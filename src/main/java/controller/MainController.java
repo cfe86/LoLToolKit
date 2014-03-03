@@ -118,7 +118,7 @@ public class MainController implements ActionListener, Observer {
 							window.toFront();
 					}
 				});
-				
+
 				// init controller
 				con.getController().init(window.getTab(con.getTabIndex()));
 			} catch (ControllerInitException e) {
@@ -140,10 +140,13 @@ public class MainController implements ActionListener, Observer {
 					IProgressBar pb = new InProgressBar(new String[] { "checking for updates" }, 400, 200);
 					pb.start();
 					UpdaterModel u = new UpdaterModel();
-					
+
 					// software update
 					u.getSoftwareUpdateInfo();
-					
+
+					if (u.hasMessage())
+						JOptionPane.showMessageDialog(window, u.getMessage());
+
 					if (u.isSoftwareUpdateAvailable()) {
 						int r = window.showConfirmationMessage("softwareUpdateAvaiable");
 
@@ -154,7 +157,7 @@ public class MainController implements ActionListener, Observer {
 							System.exit(1);
 						}
 					}
-						
+
 					// data update
 					u.getUpdateInfo();
 					boolean update = u.isUpdateAvailable() || needUpdate;

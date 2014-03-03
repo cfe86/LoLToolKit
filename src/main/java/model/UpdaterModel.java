@@ -30,9 +30,9 @@ public class UpdaterModel {
 	private final Logger logger = Logger.getLogger(this.getClass().getName());
 
 	private UpdateData updateData;
-	
+
 	private SoftwareUpdateData softwareUpdateData;
-		
+
 	/**
 	 * Constructor
 	 */
@@ -51,7 +51,7 @@ public class UpdaterModel {
 
 		IDataCollector dc = CollectorManager.getInstance().getPreparedDataCollector();
 		this.updateData = dc.getUpdateInfo();
-		
+
 		Config.getInstance().setDataUpdateLink(this.updateData.getPackageURL());
 		logger.log(Level.FINER, "got last update from server: " + this.updateData.getLastUpate());
 	}
@@ -83,7 +83,7 @@ public class UpdaterModel {
 	 * 
 	 * @throws UpdateException
 	 *             thrown if update couldn't be performed
-	 * @throws ParseException 
+	 * @throws ParseException
 	 */
 	public void update(boolean fastupdate, IProgressBar bp) throws UpdateException, ParseException {
 		logger.log(Level.FINER, "update using fastupdate: " + fastupdate + " slowupdate: " + !fastupdate);
@@ -132,7 +132,7 @@ public class UpdaterModel {
 
 		this.softwareUpdateData = new SoftwareUpdateData(updateDate, updateLink, kb, updateLinkExe, kbExe, showMsg.equals("1"), msg);
 	}
-	
+
 	/**
 	 * checks if a software update is available
 	 * 
@@ -147,6 +147,24 @@ public class UpdaterModel {
 		logger.log(Level.FINER, "local update: " + localDate.toString() + " server update: " + this.softwareUpdateData.getUpdateDate());
 
 		return this.softwareUpdateData.getLastUpdate().after(localDate);
+	}
+
+	/**
+	 * returns true if a message is available
+	 * 
+	 * @return true if available, else false
+	 */
+	public boolean hasMessage() {
+		return this.softwareUpdateData.isShowMsg();
+	}
+
+	/**
+	 * gets the message
+	 * 
+	 * @return gets the message
+	 */
+	public String getMessage() {
+		return this.softwareUpdateData.getMsg();
 	}
 
 	/**
@@ -169,15 +187,15 @@ public class UpdaterModel {
 			Runtime.getRuntime().exec(cmd);
 		}
 		// jar file
-		else { 
+		else {
 			logger.log(Level.FINER, "update software from " + this.softwareUpdateData.getUpdateLink());
-			String cmd = "java -jar " + Constants.UPDATER_PATH + " \"" + path + "\" \"" + this.softwareUpdateData.getKb() + "\" \"" + lang + "\" \"" + this.softwareUpdateData.getUpdateLink()
-					+ "\" \"java -jar " + path + "\"";
+			String cmd = "java -jar " + Constants.UPDATER_PATH + " \"" + path + "\" \"" + this.softwareUpdateData.getKb() + "\" \"" + lang + "\" \""
+					+ this.softwareUpdateData.getUpdateLink() + "\" \"java -jar " + path + "\"";
 			logger.log(Level.FINER, "call update cmd: " + cmd);
 			Runtime.getRuntime().exec(cmd);
 		}
 	}
-	
+
 	public void writeUpdater() throws IOException {
 		InputStream stream;
 		stream = FileUtil.class.getResourceAsStream("/" + Constants.UPDATER_PATH_IN_JAR);
@@ -188,7 +206,7 @@ public class UpdaterModel {
 
 		if (stream == null)
 			throw new IOException("File not found.");
-		
+
 		ByteArrayOutputStream buffer = new ByteArrayOutputStream();
 
 		byte[] data = new byte[4096];
