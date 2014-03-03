@@ -17,7 +17,7 @@ public class Constants {
 	 */
 	private final static String JAR_PATH = FileUtil.getFilePath(PathUtil.getJarPath(Constants.class)) + "/";
 	private final static String WORKSPACE_PATH = PathUtil.getWorkspacePath().replace("\\", "/");
-	public final static String PATH = PathUtil.isInJar(Constants.class) ? JAR_PATH : WORKSPACE_PATH;
+	public final static String PATH = PathUtil.isInJar(Constants.class) ? JAR_PATH.replace("%20", " ") : WORKSPACE_PATH.replace("%20", " ");
 
 	/**
 	 * the version
