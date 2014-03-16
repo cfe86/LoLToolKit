@@ -34,7 +34,7 @@ mvn clean package
 
 The \*.jar file can be found in the **_target_** directory afterwards. 
 
-A version for **windows** and **linux** is already compiled and can be found in the specific zip files.
+A version for **windows** and **linux** is already compiled and can be found in the root folder.
 
 
 ## How to extend the Tool Kit
