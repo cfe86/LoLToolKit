@@ -280,6 +280,8 @@ public class InputConfigCreator implements IConfigCreator {
 			params.put("evtCastSpell3smart", "0");
 			params.put("evtCastSpell4smart", "0");
 			params.put("evtUseVisionItemsmart", "0");
+			
+			params.put("evtCameraSnap", "[Space]");
 
 			// read file and load this config into params
 			String path = Config.getInstance().getLolPath() + Config.getInstance().getInputIni();
@@ -326,6 +328,13 @@ public class InputConfigCreator implements IConfigCreator {
 				params.put("evtSelfCastItem4", getShortcut(evtSelf, h.isSmartcastItem4(), h.isSelfcastItem4(), h.getItem4()));
 				params.put("evtSelfCastItem5", getShortcut(evtSelf, h.isSmartcastItem5(), h.isSelfcastItem5(), h.getItem5()));
 				params.put("evtSelfCastItem6", getShortcut(evtSelf, h.isSmartcastItem6(), h.isSelfcastItem6(), h.getItem6()));
+				
+				params.put("evtUseItem1smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem1(), h.isSelfcastItem1(), h.getItem1()));
+				params.put("evtUseItem2smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem2(), h.isSelfcastItem2(), h.getItem2()));
+				params.put("evtUseItem3smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem3(), h.isSelfcastItem3(), h.getItem3()));
+				params.put("evtUseItem4smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem4(), h.isSelfcastItem4(), h.getItem4()));
+				params.put("evtUseItem5smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem5(), h.isSelfcastItem5(), h.getItem5()));
+				params.put("evtUseItem6smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem6(), h.isSelfcastItem6(), h.getItem6()));
 			}
 
 			params.put("evtCastSpell1", getShortcut(evtUseCast, h.isSmartcastSpell1(), h.isSelfcastSpell1(), h.getSpell1()));
@@ -372,12 +381,6 @@ public class InputConfigCreator implements IConfigCreator {
 			params.put("evtLevelSpell3", Config.getInstance().getLevelupPrefix() + getHotkey(h.getSpell3()));
 			params.put("evtLevelSpell4", Config.getInstance().getLevelupPrefix() + getHotkey(h.getSpell4()));
 
-			params.put("evtUseItem1smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem1(), h.isSelfcastItem1(), h.getItem1()));
-			params.put("evtUseItem2smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem2(), h.isSelfcastItem2(), h.getItem2()));
-			params.put("evtUseItem3smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem3(), h.isSelfcastItem3(), h.getItem3()));
-			params.put("evtUseItem4smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem4(), h.isSelfcastItem4(), h.getItem4()));
-			params.put("evtUseItem5smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem5(), h.isSelfcastItem5(), h.getItem5()));
-			params.put("evtUseItem6smart", getShortcut(evtUseXXXsmart, h.isSmartcastItem6(), h.isSelfcastItem6(), h.getItem6()));
 			params.put("evtCastAvatarSpell1smart", getShortcut(evtUseXXXsmart, h.isSmartcastSummonerSpell1(), h.isSelfcastSummonerSpell1(), h.getSummonerSpell1()));
 			params.put("evtCastAvatarSpell2smart", getShortcut(evtUseXXXsmart, h.isSmartcastSummonerSpell2(), h.isSelfcastSummonerSpell2(), h.getSummonerSpell2()));
 			params.put("evtCastSpell1smart", getShortcut(evtUseXXXsmart, h.isSmartcastSpell1(), h.isSelfcastSpell1(), h.getSpell1()));
@@ -459,7 +462,9 @@ public class InputConfigCreator implements IConfigCreator {
 	  					"evtLevelSpell1=" + Config.getInstance().getLevelupPrefix() + getHotkey(h.getSpell1()) + "\n" +
 	  					"evtLevelSpell2=" + Config.getInstance().getLevelupPrefix() + getHotkey(h.getSpell2()) + "\n" +
 	  					"evtLevelSpell3=" + Config.getInstance().getLevelupPrefix() + getHotkey(h.getSpell3()) + "\n" +
-	  					"evtLevelSpell4=" + Config.getInstance().getLevelupPrefix() + getHotkey(h.getSpell4()) + "\n\n\n" +
+	  					"evtLevelSpell4=" + Config.getInstance().getLevelupPrefix() + getHotkey(h.getSpell4()) + "\n" +
+						
+  						"evtCameraSnap=" + params.get("evtCameraSnap") + "\n\n\n" +
 						
 						"[Quickbinds]\n" +
 						"evtUseItem1smart=" + params.get("evtUseItem1smart") + "\n" +
