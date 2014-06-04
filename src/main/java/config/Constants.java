@@ -39,7 +39,7 @@ public class Constants {
 	 * attention: this string will be overriden with the value from
 	 * settings.conf and is just a default value
 	 */
-	public final static String LAST_DATA_UPDATE = "Thu May 01 01:39:01 CET 2014";
+	public final static String LAST_DATA_UPDATE = "Wed Jan 01 00:00:01 CET 2014";
 
 
 	/**
@@ -52,7 +52,7 @@ public class Constants {
 	 * compiled attention: this string will be overriden with the value from
 	 * settings.conf and is just a default value
 	 */
-	public final static String LAST_SOFTWARE_UPDATE = "Sat Mar 1 22:00:00 CET 2014";
+	public final static String LAST_SOFTWARE_UPDATE = "Thu May 01 01:39:01 CET 2014";
 	
 	/**
 	 * the path to the updater inside of the jar file
