@@ -52,8 +52,9 @@ public class WebsiteDataCollector implements IDataCollector {
 	// internal use for update file
 	private boolean WRITE_UPDATE_FILE = false;
 	private final String FILE_PATH = "updatefile.txt";
-
-	private final String champNameURL = "http://prod.api.pvp.net/api/lol/euw/v1.1/champion?api_key=5129a04f-bdea-4f51-9d1a-8a32a42a6450";
+	
+	private final String champNameURL = "http://leagueoflegends.wikia.com/wiki/Category:Released_champion";
+//	private final String champNameURL = "http://prod.api.pvp.net/api/lol/euw/v1.1/champion?api_key=5129a04f-bdea-4f51-9d1a-8a32a42a6450";
 	private final String summonerSpellURL = "http://leagueoflegends.wikia.com/wiki/Summoner_spell";
 	private final String champInfoURL = "http://gameinfo.euw.leagueoflegends.com/en/game-info/champions/";
 	private final String itemURL = "http://www.lolking.net/items/";
@@ -192,15 +193,34 @@ public class WebsiteDataCollector implements IDataCollector {
 			json += line.trim() + "\n";
 
 		in.close();
-
-		// get all "name":"[name]" e.g. "name":"Aatrox"
-		Regex regex = new Regex("\"name\":\".*?\"");
-		List<String> tmp = regex.find(json);
-		logger.log(Level.FINER, "parsed JSON: " + json);
-
-		for (String e : tmp) {
-			result.add(e.split(":")[1].replace("\"", ""));
+		
+		Regex r = new Regex(".*<div lang=\"en\" dir=\"ltr\" class=\"mw-content-ltr\"><table width=\"100%\"><tr valign=\"top\"><td width=\"33.3%\">(.*?)</tr></table></div>.*", Pattern.DOTALL);
+		
+		if (!r.matches(json))
+			return result;
+		
+		String champs = r.getGroup(1);
+		
+		r = new Regex("<a href=\".*?\" title=\".*?\">.*?</a>", Pattern.DOTALL);
+		
+		List<String> tmp = r.find(champs);
+		
+		r = new Regex("<a href=\".*?\" title=\"(.*?)\">.*?</a>", Pattern.DOTALL);
+		
+		for (String s : tmp) {
+			if (r.matches(s)) {
+				result.add(clearName(r.getGroup(1)));
+			}
 		}
+
+//		// get all "name":"[name]" e.g. "name":"Aatrox"
+//		Regex regex = new Regex("\"name\":\".*?\"");
+//		List<String> tmp = regex.find(json);
+//		logger.log(Level.FINER, "parsed JSON: " + json);
+//
+//		for (String e : tmp) {
+//			result.add(e.split(":")[1].replace("\"", ""));
+//		}
 
 		logger.log(Level.FINER, "parsed champs (" + result.size() + "): " + Arrays.toString(result.toArray()));
 
@@ -290,6 +310,16 @@ public class WebsiteDataCollector implements IDataCollector {
 		ImageIO.write(img, "png", new File(fileName));
 	}
 
+	
+	private String clearName(String name) {
+		name = name.replace(" ", "");
+		name = name.replace("'", "");
+		name = name.replace(".", "");
+//		name = name.toLowerCase().replace("wukong", "monkeyking");
+		
+		return name;
+	}
+	
 	/**
 	 * parses the given URL to get the champion spells
 	 * 
@@ -303,8 +333,8 @@ public class WebsiteDataCollector implements IDataCollector {
 	 * @throws IOException
 	 */
 	private ChampionSpells parseChampionURL(String name, String url) throws IOException {
-		logger.log(Level.FINER, "parse url for champ: " + name + " url: " + url + name.toLowerCase());
-		URL theUrl = new URL(url + name.toLowerCase());
+		logger.log(Level.FINER, "parse url for champ: " + name + " url: " + url + clearName(name).toLowerCase().replace("wukong", "monkeyking"));
+		URL theUrl = new URL(url + clearName(name).toLowerCase().replace("wukong", "monkeyking"));
 		BufferedReader in = new BufferedReader(new InputStreamReader(theUrl.openConnection().getInputStream()));
 		String line;
 		String html = "";

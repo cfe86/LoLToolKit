@@ -22,7 +22,7 @@ public class Constants {
 	/**
 	 * the version
 	 */
-	public final static String VERSION = "1.0";
+	public final static String VERSION = "1.1";
 	
 	/**
 	 * the relative config path
@@ -39,7 +39,7 @@ public class Constants {
 	 * attention: this string will be overriden with the value from
 	 * settings.conf and is just a default value
 	 */
-	public final static String LAST_DATA_UPDATE = "Wed Jan 01 00:00:01 CET 2014";
+	public final static String LAST_DATA_UPDATE = "Thu May 01 01:39:01 CET 2014";
 
 
 	/**
